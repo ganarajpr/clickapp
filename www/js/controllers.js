@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope) {
+.controller('DashCtrl', function($scope,$state) {
         $scope.fbLogin = function() {
             openFB.login(
                 function(response) {
@@ -15,7 +15,7 @@ angular.module('starter.controllers', [])
         };
 
         $scope.closeLogin = function(){
-
+            $state.transitionTo('tab.chats');
         }
     })
 
