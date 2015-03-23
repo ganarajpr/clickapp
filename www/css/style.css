@@ -1,0 +1,47 @@
+/* Empty. Add your own CSS if you like */
+html,
+body{
+    height: 100%;
+}
+
+body.row{
+    padding: 0;
+}
+.splash {
+    background-image: url("../img/splash_screen_bg.jpg");
+}
+
+.facebook-button.button-positive{
+    background-color: #3b5998;
+    position: absolute;
+    top: 70%;
+    left : 13%;
+    margin : 0 auto;
+    text-align: center;
+
+}
+
+.white-text{
+    color : #fbfbfb;
+}
+
+/*.logo-text{
+    position : absolute;
+    top : 20%;
+    left: 33%;
+    margin : 0 auto;
+    text-align: center;
+}
+
+.caption-text{
+    position : absolute;
+    top : 30%;
+    left: 28%;
+    margin : 0 auto;
+    text-align: center;
+}*/
+
+.logo{
+    margin-top : 20%;
+}
+
